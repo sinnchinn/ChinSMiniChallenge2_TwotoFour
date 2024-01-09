@@ -1,12 +1,5 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-
-namespace ChinSMiniChallenge2_TwotoFour.services.questions
-{
+namespace ChinSMiniChallenge2_TwotoFour.services.questions;
     public interface IAddNumbersService
     {
-        
+        int AddNumber(int firstNumber, int secondNumber);
     }
-}

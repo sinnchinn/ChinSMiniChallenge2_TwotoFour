@@ -1,12 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using ChinSMiniChallenge2_TwotoFour.services.questions;
 
-namespace ChinSMiniChallenge2_TwotoFour.services
+namespace ChinSMiniChallenge2_TwotoFour.services;
+
+public class AddNumberService : IAddNumbersService
 {
-    public class AddNumberService
+
+    public int firstNumber = 0;
+    public int secondNumber = 0;
+    public int total = 0;
+
+    public int AddNumber(int firstNumber, int secondNumber)
     {
-        
+        return total;
     }
 }
